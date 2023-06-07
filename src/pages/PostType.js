@@ -8,10 +8,10 @@ function PostType({ isAuth }) {
 
     return (
         <div className="postTypePage">
-            <button onClick={navigate("/moviereview")}> Movie Review </button>
-            <button onClick={navigate("/albumreview")}> Album Review </button>
-            <button onClick={navigate("/poemreview")}> Poem Review </button>
-            <button onClick={navigate("/bookreview")}> Book Review </button>
+            <button onClick={() => navigate("/moviereview")}>Movie Review</button>
+            <button onClick={() => navigate("/albumreview")}>Album Review</button>
+            <button onClick={() => navigate("/poemreview")}>Poem Review</button>
+            <button onClick={() => navigate("/bookreview")}>Book Review</button>
         </div>
     );
 }
